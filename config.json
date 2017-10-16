@@ -1,0 +1,16 @@
+{
+  "routes":[
+    {
+      "url":"/abc/def/aaa",
+      "response":"{\"response\":[aaa]}}"
+    },
+    {
+      "url":"/abc/def/bbb",
+      "response":"{\"response\":[bbb]}}"
+    },
+    {
+      "url":"/abc/def/ccc",
+      "response":"{\"response\":[ccc]}}"
+    }
+  ]
+}
