@@ -1,5 +1,5 @@
 
-# Quickry
+# Quickly
 It is a stub application that can easily prepare a stub environment.
 Response information to return can be set in config.json.
 
