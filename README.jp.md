@@ -3,7 +3,7 @@
 返却するレスポンス情報は、config.jsonで設定できます。
 
 ## 手順
-- go main main.go
+- go run main.go
 
 ## レスポンス変更
 - ./config.json
