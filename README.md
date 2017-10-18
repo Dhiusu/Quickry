@@ -4,7 +4,7 @@ It is a stub application that can easily prepare a stub environment.
 Response information to return can be set in config.json.
 
 ## Steps
-- `go main main.go`
+- `go run main.go`
 
 ## Change response
 - ./config.json
