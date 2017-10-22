@@ -52,6 +52,8 @@ func startServe(routing Routing) {
 		fmt.Printf("   %v\n", route.Url)
 		response := route.Response
 		http.HandleFunc(route.Url, func(w http.ResponseWriter, req *http.Request) {
+      // CORS対応
+      w.Header().Set("Access-Control-Allow-Origin", "*")
 			w.Write([]byte(response))
 		})
 	}
